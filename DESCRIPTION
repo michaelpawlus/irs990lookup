@@ -1,0 +1,10 @@
+Package: irs990lookup
+Title: IRS 990 Lookup
+Version: 0.0.0.9000
+Authors@R: person("Michael", "Pawlus", email = "michael.pawlus@gmail.com", role = c("aut", "cre"))
+Description: This package uses user-supplied Employer Identification Numbers (EINs) to collect data from IRS 990 filings and returns an output file with the details from these documents.
+Depends: R (>= 3.4.3)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
