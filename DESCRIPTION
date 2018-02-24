@@ -4,6 +4,16 @@ Version: 0.0.0.9000
 Authors@R: person("Michael", "Pawlus", email = "michael.pawlus@gmail.com", role = c("aut", "cre"))
 Description: This package uses user-supplied Employer Identification Numbers (EINs) to collect data from IRS 990 filings and returns an output file with the details from these documents.
 Depends: R (>= 3.4.3)
+Imports:
+  magrittr,
+  readr,
+  dplyr,
+  purrr,
+  stringr,
+  tibble,
+  rlang,
+  xml2, 
+  jsonlite
 License: GPL-3
 Encoding: UTF-8
 LazyData: true

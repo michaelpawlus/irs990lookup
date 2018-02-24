@@ -17,8 +17,8 @@ Lookup IRS 990 Data Using EINs
 }
 \examples{
 # simple run the following function call and select a csv file with one column of EINs
-# please include a hearder row such as "eins"
-get_990_data() 
+# please include a header row such as "eins"
+get_990_data()
 
 }
 \author{
